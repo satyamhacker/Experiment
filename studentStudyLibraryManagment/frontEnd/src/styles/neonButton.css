@@ -1,0 +1,32 @@
+.neon-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ffffff; /* White text for maximum contrast */
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 30px;
+  transition: 0.3s ease;
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.8), /* Soft white glow around text */
+    0 0 15px rgba(255, 255, 255, 0.5); /* Slightly larger glow */
+}
+
+.neon-button:hover {
+  box-shadow: 
+    0 0 20px rgba(255, 255, 255, 0.7),
+    0 0 30px rgba(255, 0, 255, 0.5),
+    0 0 40px rgba(255, 0, 255, 0.6),
+    0 0 50px rgba(255, 0, 255, 0.7);
+  border-color: #fff;
+}
+
+.neon-button:focus {
+  outline: none;
+}
+.custom-button-spacing {
+  margin-bottom: 35px; /* Increase margin between buttons */
+}
